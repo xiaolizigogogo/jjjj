@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'qq-com'
+      ORG               = 'jml'
       APP_NAME          = 'jml'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
